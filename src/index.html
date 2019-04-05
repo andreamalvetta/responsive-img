@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Responsive images</title>
+    <style>
+      .container {
+        width: 100%;
+        max-width: 1500px;
+        margin: 0 auto;
+      }
+      .container img {
+        width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <picture>
+        <source media="(min-width: 801px)" srcset="./images/bg-1500w_1x.jpeg 1x, ./images/bg-1500w_2x.jpeg 2x" />
+        <source media="(min-width: 481px)" srcset="./images/bg-800w_1x.jpeg 1x, ./images/bg-800w_2x.jpeg 2x" />
+        <source media="(min-width: 321px)" srcset="./images/bg-480w_1x.jpeg 1x, ./images/bg-480w_2x.jpeg 2x" />
+        <source srcset="./images/bg-320w_1x.jpeg 1x, ./images/bg-320w_2x.jpeg 2x" />
+        <img alt="Responsive image" />
+      </picture>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/picturefill/3.0.3/picturefill.min.js"></script>
+  </body>
+</html>
