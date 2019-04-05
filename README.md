@@ -1,6 +1,10 @@
 # Responsive images
 
-Demo using new srcset image attribute and [picturefill](https://github.com/scottjehl/picturefill) as polyfill
+Demo that shows how to create responsive images with the new srcset image
+
+## Dependencies
+
+- [Picturefill](https://github.com/scottjehl/picturefill) as polyfill
 
 ## Demo
 
