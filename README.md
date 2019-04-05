@@ -9,6 +9,7 @@ Demo using new srcset image attribute and [picturefill](https://github.com/scott
 ## To-Do List
 
 - [ ] Test webp images
+- [ ] Lazy images
 - [ ] Add contributions instructions (CONTRIBUTING.md)
 
 ## Contributions
