@@ -12,8 +12,7 @@ Demo that shows how to create responsive images with the new srcset image
 
 ## To-Do List
 
-- [ ] Test webp images
-- [ ] Lazy images
+- [x] Lazy images
 - [ ] Add contributions instructions (CONTRIBUTING.md)
 
 ## Contributions
