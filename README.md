@@ -13,8 +13,7 @@ Demo that shows how to create responsive images with the new srcset image
 
 ## To-Do List
 
-- [x] Lazy images
-- [ ] Add contributions instructions (CONTRIBUTING.md)
+- [ ] Add contributions instruction (CONTRIBUTING.md)
 
 ## Development
 
